@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load("fraud_detection_pipeline.joblib")
 
-st.title("Fraud Detection Prediction App")
+st.title("Transaction Fraud Detection Application")
 
 st.markdown("Please enter the transaction detailes and use the predict button")
 
